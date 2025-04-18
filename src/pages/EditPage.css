@@ -1,0 +1,13 @@
+.edit-page {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+canvas {
+  border: 1px solid #ccc;
+}
