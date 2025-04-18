@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_KEY = "49790554-17ad7f7c7e3221f9ac381ff28";
+const API_KEY = process.env.REACT_APP_PIXABAY_API_KEY;
 
 function SearchPage() {
   const [query, setQuery] = useState("");
